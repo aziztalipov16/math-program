@@ -1,0 +1,30 @@
+.block{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+   height: 250px;
+   border: 2px solid black;
+}
+.block input{
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 45%;
+    padding:  14px 12px;
+    font-size: 18px;
+}
+.block input::placeholder{
+    text-align: center;
+}
+
+.block button{
+    width: 45%;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding:  8px 8px;
+    font-size: 18px;
+}
+.block p {
+    margin: auto;
+    font-size: 19px;
+}
